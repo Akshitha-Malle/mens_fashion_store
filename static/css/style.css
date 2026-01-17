@@ -1,0 +1,15 @@
+.product-card img {
+    width: auto;
+    height: 200px; /* Fixed height */
+    object-fit: contain; /* Prevents stretching */
+    display: block;
+    margin: 0 auto;
+    image-rendering: pixelated; /* Optional: keeps edges sharp for small icons */
+}
+.zoom-effect {
+    transition: transform 0.3s ease;
+    cursor: zoom-in;
+}
+.zoom-effect:hover {
+    transform: scale(1.05);
+}
